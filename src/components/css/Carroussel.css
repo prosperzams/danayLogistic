@@ -1,0 +1,18 @@
+.carousel-inner{
+    width: auto;
+    border-radius: 5%;
+}
+img{
+    height: 33rem;
+}
+
+@media (max-width : 700px) {
+.carousel-inner{
+    height: auto;
+    width: auto;
+    border-radius: 5%;
+}
+img{
+    height: 10rem;
+}
+}

@@ -1,0 +1,44 @@
+.body{
+    background-repeat: no-repeat;
+    background-image: url(/public/images/bg1a.png);
+    background-size: cover;
+    background-position: center;
+}
+.chat-box{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+.chat{
+    flex: 1;
+    overflow-y: auto;
+}
+
+.send-box{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.send-box input{
+    flex: 1;
+    margin-right: 10px;
+}
+.envoyer{
+    font-size: 25px;
+    left: 0;
+    top: 0;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.vide{
+    margin-top: 180px;
+    text-align: center;
+    font-size: 120px;
+    color: white;
+}

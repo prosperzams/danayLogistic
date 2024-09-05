@@ -1,0 +1,21 @@
+.nav-link{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+
+}
+.img{
+    width: 70px;
+    height: 70px;
+}
+.nav-link:hover{
+    border-radius: 9px;
+    background-color: rgb(196, 6, 6);
+    color: aliceblue;
+}
+.nav-link.active{
+    background: rgb(196, 6, 6);   
+    border-radius: 9px;
+    color: aliceblue;
+
+}
