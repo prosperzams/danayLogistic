@@ -2,6 +2,7 @@
   "name": "danayLogistic",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://prosperzams.github.io/danayLogistic/",
   "type": "module",
   "scripts": {
     "dev": "vite",
